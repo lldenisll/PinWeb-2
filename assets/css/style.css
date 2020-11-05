@@ -1207,7 +1207,7 @@ Nova Timeline */
   SLIDER
  */
  .carousel-item {
-  height: 100vh;
+  height: 73vh;
   min-height: 350px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
