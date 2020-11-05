@@ -180,6 +180,9 @@ body{
 .info-projeto h2{
   font-size: 1rem;
 }
+.info-projeto a{
+  color:white;
+}
 .sgd{
   background-image: url(../images/bg1.jpg); 
   background-position: center;
