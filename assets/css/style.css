@@ -19,7 +19,7 @@ html{
   scroll-behavior: smooth;
 }
 body{
-  background-color: #FBFBFB;
+  background-color: #F7F7F7;
 }
 .parallax{
     background-attachment: fixed;
@@ -585,13 +585,7 @@ Nova Timeline */
 .timeline{
 }
 .section {
-<<<<<<< HEAD
   padding: 50px 0;
-=======
-  background: white;
-  padding: 50px 0;
-  color:black;
->>>>>>> f12cdc9ff6edd952156f730f3da4343a9981dde4
 }
 
 .section .container {
@@ -628,7 +622,7 @@ Nova Timeline */
   list-style-type: none;
   width: 160px;
   height: 3px;
-  background: #fff;
+  background: #fff !important;
 }
 
 .timeline ol li:last-child {
@@ -659,8 +653,7 @@ Nova Timeline */
   padding: 15px;
   font-size: 1rem;
   white-space: normal;
-  color: black;
-  background: white;
+  background: #fff !important;
 }
 
 .timeline ol li div::before {
@@ -681,7 +674,7 @@ Nova Timeline */
 .timeline ol li:nth-child(odd) div::before {
   top: 100%;
   border-width: 8px 8px 0 0;
-  border-color: white transparent transparent transparent;
+  border-color: #fff transparent transparent transparent;
 }
 
 .timeline ol li:nth-child(even) div {
@@ -691,7 +684,7 @@ Nova Timeline */
 .timeline ol li:nth-child(even) div::before {
   top: -8px;
   border-width: 8px 0 0 8px;
-  border-color: transparent transparent transparent white;
+  border-color: transparent transparent transparent #fff;
 }
 
 .timeline time {
@@ -699,6 +692,13 @@ Nova Timeline */
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 8px;
+}
+
+.img-timeline{
+  float: right;
+  margin-top: -40px;
+  width: 30px;
+  height: auto;
 }
 
 
