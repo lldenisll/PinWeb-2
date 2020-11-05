@@ -583,12 +583,9 @@ time {
 /* 
 Nova Timeline */
 .timeline{
-  background-color: #00689E;
 }
 .section {
-  background:#00689E;
   padding: 50px 0;
-  color:white;
 }
 
 .section .container {
@@ -705,7 +702,7 @@ Nova Timeline */
 .timeline .arrows {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  padding: 30px 0 30px 0;
 }
 
 .timeline .arrows .arrow__prev {
