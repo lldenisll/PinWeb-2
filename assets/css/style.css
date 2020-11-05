@@ -240,131 +240,6 @@ body{
     text-align: left;
 }
 
-/*06 :: SLIDER*/
-#slideshow{
-    font-family: 'Roboto', sans-serif;
-    background: white;
-    color: #fff;
-    line-height: 1.6;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-.slider{
-    position: relative;
-    overflow: hidden;
-    height: 100vh;
-    /*width: 100vw;*/
-}
-.row{
-  margin: 0 0 0 0!important;
-}
-
-.slide {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-		transform: scale(1.2);
-    transition: all 2s ease-in-out;
-}
-
-.slide.current {
-    opacity: 1;
-		transform: scale(1);
-}
-
-.slide .content {
-    position: absolute;
-    bottom: 45px;
-    left: -600px;
-    opacity: 0;
-    width: 600px;
-    background-color: rgba(255, 255, 255, 0.8);
-    color: #333;
-    padding: 35px;
-}
-
-.slide .content h1 {
-    margin-bottom: 10px;
-		color: #00689E;
-		font-family: 'Anton';
-		font-size: 50px;
-		font-weight: 800;
-}
-.slide p{
-    margin-bottom: 30px;
-}
-
-.slide.current .content {
-    opacity: 1;
-    transform: translateX(600px);
-    transition: all 1s ease-in-out 1s;
-}
-
-.buttons button#next {
-    position: absolute;
-    top: 50%;
-    right: 15px;
-}
-
-.buttons button#prev {
-    position: absolute;
-    top: 50%;
-    left: 15px;
-}
-
-.buttons button {
-    border: 2px solid  #00689E;
-    background-color: transparent;
-    color: #00689E;
-    cursor: pointer;
-    padding: 13px 15px;
-    border-radius: 50%;
-    outline: none;
-}
-
-.buttons button:hover {
-    background-color:  #68C3EF;
-    border: 2px solid   #68C3EF;
-
-	color: #FFF;
-}
-
-@media(max-width: 500px) {
-	.slide .content {
-		bottom: -300px;
-		left: 0;
-		width: 100%
-	}
-	
-	.slide.current .content {
-		transform: translateY(-300px);
-	}
-}
-
-/* Background Images */
-.slide:first-child {
-    background: url('../images/slider/img1.jpg') no-repeat center center/cover;
-}
-.slide:nth-child(2) {
-    background: url('../images/slider/img2.jpg') no-repeat center center/cover;
-}
-.slide:nth-child(3) {
-    background: url('../images/slider/img3.jpg') no-repeat center center/cover ;
-}
-.slide:nth-child(4) {
-    background: url('../images/slider/img4.jpg') no-repeat center center/cover;
-}
-.slide:nth-child(5) {
-    background: url('../images/slider/img5.jpg') no-repeat center center/cover;
-}
-.slide:nth-child(6) {
-    background: url('../images/slider/img6.jpg') no-repeat center center/cover;
-}
 
 /*07 :: TIMELINE*/
 
@@ -1328,3 +1203,15 @@ Nova Timeline */
   transform: translateX(150%);
  }
  
+ /*
+  SLIDER
+ */
+ .carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
