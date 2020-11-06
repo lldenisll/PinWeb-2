@@ -195,16 +195,12 @@ body{
   color:white;
 }
 .sgd{
-  background-image: url(../images/bg1.jpg); 
+  background-image: url(../images/bg2.png); 
   background-position: center;
   background-repeat: no-repeat; 
   background-size: cover; 
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);  
+  
   position:absolute;
   width:100%;
   height:92.6rem;
