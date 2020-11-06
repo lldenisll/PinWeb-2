@@ -1216,6 +1216,59 @@ Nova Timeline */
   -webkit-transform: translateX(150%);
   transform: translateX(150%);
  }
+
+
+ /*
+  BUTTON SIMPLE
+ */
+.sidenav{
+  position: fixed;
+  top: 50%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  
+}
+
+ #mySidenav li {
+  position: absolute;
+  left: -110px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 200px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav li:hover {
+  left: 0;
+}
+
+#about {
+  top: 20px;
+  background-color: #4CAF50;
+}
+
+#blog {
+  top: 80px;
+  background-color: #2196F3;
+}
+
+#projects {
+  top: 140px;
+  background-color: #f44336;
+}
+
+#contact {
+  top: 200px;
+  background-color: #555
+}
  
  /*
   SLIDER
