@@ -184,15 +184,24 @@ body{
 .info-projeto{
   color:white;
   background-color: #00689E !important;
+  position: relative;
+  z-index: -1;
+
 }
 .info-projeto h1{
   font-size: 1.2rem;
+  z-index: -1;
+
 }
 .info-projeto h2{
   font-size: 1rem;
+  z-index: -1;
+
 }
 .info-projeto a{
   color:white;
+  z-index: -1;
+
 }
 .sgd{
   background-image: url(../images/bg2.png); 
@@ -207,14 +216,11 @@ body{
 }
 
 .sgd-content{
+    position: relative;
     padding-top: 20px;
     color: #fff;
-    z-index:9999;
-    -webkit-filter: blur(0px);
-    -moz-filter: blur(0px);
-    -o-filter: blur(0px);
-    -ms-filter: blur(13px);
-    filter: blur(0px);
+    z-index:2;
+  
 }
 .sgd-text{
   font-size: 18px;
@@ -1122,7 +1128,66 @@ Nova Timeline */
     top: 40%;
     display: flex;
   flex-direction: column;
+  z-index: 99;
  } 
+ .botoesfinal{
+   display: flex;
+   flex-wrap: row;
+    z-index: 99;
+    padding-top: 2rem;
+  }
+  .iconesfinal{
+    font-size: 1.7rem;
+  position: relative;
+  padding-top: 1rem;
+  padding-left: 1.1rem;
+    color:white;
+  }
+  .facebookfinal{
+    font-size: 1.7rem;
+  position: relative;
+  padding-top: 1rem;
+  padding-left: 1rem;
+    color:white;
+  }
+  .carrinhofinal{
+    font-size: 1.7rem;
+  position: relative;
+  padding-top: 1rem;
+  padding-left: .8rem;
+    color:white;
+  }
+  
+ .botaoWraperfinal {
+  background-color:#00689E;
+  height: 60px;
+  width: 60px;
+  border-radius: 1rem;
+  margin-right: 1rem;
+ }
+ .botaoWraperfinal:hover {
+  background-color:#2f90c5;
+  height: 60px;
+  width: 60px;
+  border-radius: 1rem;
+  margin-right: 1rem;
+ }
+
+
+.final{
+  background-color: white;
+  position: relative;
+  z-index: 9999999;
+}
+.final h1{
+  font-size: 3rem;
+}
+
+.final a{
+  font-size: 3rem;
+  color: #00689E;
+
+}
 
 
  .social-link{
@@ -1134,6 +1199,12 @@ Nova Timeline */
   height: 60px;
   width: 60px;
   border-radius: 1rem;
+  z-index: 99;
+  color:white;
+
+ }
+ .botoes{
+   color:white;
  }
  .carrinho:hover{
    color:white;
@@ -1316,4 +1387,45 @@ Nova Timeline */
   .projectFactsWrap .item {
      flex: 0 0 50%;
   }
+}
+
+.slidercominfo{
+  z-index:999999999999;
+  position: relative;
+}
+.beneficio{
+  position: relative;
+  z-index: -1;
+}
+
+.sectionClass{
+  position: relative;
+  z-index: 99999999;
+}
+
+.socialcarbon{
+  position: relative;
+  z-index: -1;
+}
+.quoteprojeto{
+  position: relative;
+  z-index: 9999999;
+}
+
+.maisprojetos{
+  position: relative;
+  z-index: 9999999;
+}
+.timelineWraper{
+  position: relative;
+  z-index: 99999;
+}
+
+#navbar{
+  position: relative;
+  z-index: 9999999999;
+}
+.footer{
+  position: relative;
+  z-index: 9999999;
 }
