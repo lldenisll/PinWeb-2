@@ -21,6 +21,9 @@ html{
 body{
   background-color: #F7F7F7;
 }
+.row{
+  margin: 0;
+}
 .parallax{
     background-attachment: fixed;
 }
