@@ -1178,9 +1178,11 @@ Nova Timeline */
   background-color: white;
   position: relative;
   z-index: 9999999;
+  padding: 2em;
 }
 .final h1{
   font-size: 3rem;
+  padding-top: 30px;
 }
 
 .final a{
@@ -1405,7 +1407,7 @@ Nova Timeline */
 
 .socialcarbon{
   position: relative;
-  z-index: -1;
+  z-index: 99;
 }
 .quoteprojeto{
   position: relative;
@@ -1426,6 +1428,11 @@ Nova Timeline */
   z-index: 9999999999;
 }
 .footer{
+  position: relative;
+  z-index: 9999999;
+}
+
+.introsembotao{
   position: relative;
   z-index: 9999999;
 }
